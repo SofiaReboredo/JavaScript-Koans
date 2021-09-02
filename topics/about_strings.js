@@ -2,6 +2,7 @@
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
+console.log("/*-----------STRINGS----------------*/");
 test("delimiters", () => {
     const singleQuotedString = 'apple';
     const doubleQuotedString = "apple";

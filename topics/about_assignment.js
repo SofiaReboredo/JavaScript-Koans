@@ -2,6 +2,7 @@
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
+console.log("/*-----------ASSIGNMENT----------------*/");
 test("local variables", () => {
     const temp = 1;
     equal(temp, 1, "Assign a value to the variable temp");

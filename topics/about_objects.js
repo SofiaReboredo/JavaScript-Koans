@@ -2,6 +2,7 @@
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
+console.log("/*-----------OBJECTS----------------*/");
 test("object type", () => {
     const empty_object = {};
     equal('object', typeof(empty_object), 'what is the type of an object?');

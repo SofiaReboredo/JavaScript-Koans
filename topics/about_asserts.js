@@ -7,6 +7,7 @@ const koans = require('../support/koans')
 const { __ } = koans
 const { test } = koans
 
+console.log("/*-----------ASSERTS----------------*/");
 test("ok", () => {
     ok(true === true, 'what will satisfy the ok assertion?');
 })

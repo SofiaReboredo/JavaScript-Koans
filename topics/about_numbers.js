@@ -2,6 +2,7 @@
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
+console.log("/*-----------NUMBERS----------------*/");
 test("types", () => {
     const typeOfIntegers = typeof(6);
     const typeOfFloats = typeof(3.14159);

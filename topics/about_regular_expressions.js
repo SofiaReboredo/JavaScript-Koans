@@ -2,6 +2,7 @@
 const { equal, ok } = require('assert')
 const { __, test } = require('../support/koans')
 
+console.log("/*-----------REGULAR EXPRESSIONS----------------*/");
 test("exec", () => {
     const numberFinder = /(\d).*(\d)/;
     const results = numberFinder.exec("what if 6 turned out to be 9?");

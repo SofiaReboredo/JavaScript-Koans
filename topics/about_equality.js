@@ -2,6 +2,7 @@
 const { equal, ok } = require('assert')
 const { __, test } = require('../support/koans')
 
+console.log("/*-----------EQUALITY----------------*/");
 test("numeric equality", () => {
     equal(3 + 4,  7, "");
 });

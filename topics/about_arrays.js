@@ -2,6 +2,7 @@
 const { equal, deepEqual } = require('assert')
 const { __, test } = require('../support/koans')
 
+console.log("/*-----------ARRAYS----------------*/");
 test("array literal syntax and indexing", () => {
     const favouriteThings = ["cellar door", 42, true]; // note that array elements do not have to be of the same type
     equal("cellar door", favouriteThings[0], 'what is in the first position of the array?');

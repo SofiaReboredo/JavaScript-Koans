@@ -2,6 +2,7 @@
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
+console.log("/*-----------THIS----------------*/");
 test("'this' inside a method", () => {
 	const person = {
 		name: 'bob',

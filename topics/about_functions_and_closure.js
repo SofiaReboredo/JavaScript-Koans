@@ -2,6 +2,7 @@
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
+console.log("/*-----------FUNCRIONS AND CLOSURE----------------*/");
 test("defining functions directly", () => {
     var result = "a";
     function changeResult() {

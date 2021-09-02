@@ -4,6 +4,7 @@ const { __, test } = require('../support/koans')
 
 thisIsAGlobalVariable = 77;
 
+console.log("/*-----------SCOPE----------------*/");
 test("global variables", () => {
     equal(77, thisIsAGlobalVariable, 'is thisIsAGlobalVariable defined in this scope?');
 });

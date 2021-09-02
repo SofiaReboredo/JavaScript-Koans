@@ -2,6 +2,7 @@
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
+console.log("/*-----------CONTROL STRUCTURES----------------*/");
 test("if", () => {
 	let isPositive = false;
 	if (2 > 0) {

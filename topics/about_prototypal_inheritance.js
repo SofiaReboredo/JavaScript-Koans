@@ -14,6 +14,7 @@ Mammal.prototype = {
     }
 }
 
+console.log("/*-----------PROTOTYPAL INHERITANCE----------------*/");
 test("defining a 'class'", () => {
     const eric  = new Mammal("Eric");
     equal("Hello, my name is Eric", eric.sayHi(), 'what will Eric say?');

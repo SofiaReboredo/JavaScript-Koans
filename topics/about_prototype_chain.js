@@ -28,6 +28,7 @@ child.b = 2;
  * ---------------------- ---- ---- ----
  * */
 
+console.log("/*-----------PROTOTYPE CHAIN----------------*/");
 test("Is there an 'a' and 'b' own property on child?", () => {
   equal(true, child.hasOwnProperty('a'), 'child.hasOwnProperty(\'a\')?');
   equal(true, child.hasOwnProperty('b'), 'child.hasOwnProperty(\'b\')?');

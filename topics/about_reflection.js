@@ -12,6 +12,7 @@ function B() {
 
 B.prototype = new A();
 
+console.log("/*-----------REFLECTION----------------*/");
 test("typeof", () => {
     equal('object', typeof({}), 'what is the type of an empty object?');
     equal('string', typeof('apple'), 'what is the type of a string?');

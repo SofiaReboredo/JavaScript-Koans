@@ -23,3 +23,7 @@ test("string literals", () => {
     equal('frankenstein', "frankenstein", "quote types are interchangable, but must match.");
     equal("frankenstein", 'frankenstein', "quote types can use both single and double quotes.");
 });
+
+module.exports = {
+    test
+}

@@ -22,3 +22,7 @@ test("variables declared inside of a function", () => {
     equal('outer', outerVariable, 'is outerVariable defined in this scope?');
     equal('undefined', typeof(innerVariable), 'is innerVariable defined in this scope?');
 });
+
+module.exports = {
+    test
+}

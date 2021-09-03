@@ -63,4 +63,8 @@ test("Is there an 'd' property on child?", () => {
   equal(undefined, child.d, 'what is the value of child.d?');
 });
 
+module.exports = {
+  test
+}
+
 

@@ -16,7 +16,7 @@ Array.prototype.equalTo = function(compareTo) {
 
 const test = (message, assertion) => {
 	console.log('\x1b[31m\n')
-	assertion()
+	//assertion()
 	console.log('\x1b[0m\x1b[42m  %s  \x1b[0m\n', message)
 }
 

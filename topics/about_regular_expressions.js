@@ -30,4 +30,8 @@ test("replace", () => {
     equal('what if six turned out to be nine?', pie, 'what is the value of pie?');
 });
 
+module.exports = {
+    test
+}
+
 // THE END

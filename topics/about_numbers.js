@@ -16,3 +16,7 @@ test("NaN", () => {
     equal(true, Number.isNaN(resultOfFailedOperations), 'what will satisfy the equals assertion?');
     equal(false, resultOfFailedOperations == NaN, 'is NaN == NaN?');
 });
+
+module.exports = {
+    test
+}

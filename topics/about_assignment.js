@@ -12,3 +12,7 @@ test("global variables", () => {
     temp = 1; // Not using var is an example. Always use var in practise.
     equal(global.temp, temp, 'global variables are assigned to the global object');
 });
+
+module.exports = {
+    test
+}

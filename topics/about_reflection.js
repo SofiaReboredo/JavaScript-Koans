@@ -75,3 +75,7 @@ test("eval", () => {
     eval("result = 'apple' + ' ' + 'pie'");
     equal('apple pie', result, 'what is the value of result?');
 });
+
+module.exports = {
+    test
+}

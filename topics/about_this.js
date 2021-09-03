@@ -25,7 +25,7 @@ test("'this' on unattached function", () => {
 	
 	// if the function is not called as an object property 'this' is the global context 
 	// (window in a browser). This is an example. Please do not do this in practise.
-	globalName = 'Peter';
+	global.globalName= 'Peter';
 	equal(alias(), "Hello, my name is Peter", "What does 'this' refer to when it is not part of an object?");
 });
 
@@ -44,4 +44,8 @@ test("'this' set explicitly", () => {
 
 // extra credit: underscore.js has a 'bind' function http://documentcloud.github.com/underscore/#bind
 // read the source and see how it is implemented
+
+module.exports = {
+    test
+}
 

@@ -2,7 +2,7 @@
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
-console.log("/*-----------FUNCRIONS AND CLOSURE----------------*/");
+console.log("/*-----------FUNCTIONS AND CLOSURE----------------*/");
 test("defining functions directly", () => {
     var result = "a";
     function changeResult() {
@@ -36,7 +36,7 @@ test("self invoking functions", () => {
 });
 
 test("arguments array", () => {
-    const add = function(arguments) {
+    const add = function() {
         let total = 0;
         for(let i = 0; i < arguments.length; i++) {
             // complete the implementation of this method so that it returns the sum of its arguments
@@ -45,8 +45,8 @@ test("arguments array", () => {
         return total;
     };
 
-    equal(15, add([1,2,3,4,5]), "add 1,2,3,4,5");
-    equal(9, add([4,7,-2]), "add 4,7,-2");
+    equal(15, add(1,2,3,4,5), "add 1,2,3,4,5");
+    equal(9, add(4,7,-2), "add 4,7,-2");
 });
 
 test("using call to invoke function", () => {
@@ -75,4 +75,8 @@ test("using apply to invoke function", () => {
         
     equal("I am this!I am arg1I am arg2", result, "what will the value of invokee's this be?");
 });
+
+module.exports = {
+    test
+}
 

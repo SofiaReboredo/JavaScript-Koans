@@ -46,7 +46,3 @@ test("queue methods", () => {
     equal('third', queue.shift(), 'what will be shifted out first?');
     equal('first', queue.shift(), 'what will be shifted out second?');
 });
-
-module.exports = {
-    test
-}

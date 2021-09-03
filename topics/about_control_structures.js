@@ -75,7 +75,3 @@ test("null coalescing", () => {
     let result = null || "a value";
     equal('a value', result, 'what is the value of result?');
 });
-
-module.exports = {
-    test
-}

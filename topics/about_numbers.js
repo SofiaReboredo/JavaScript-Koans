@@ -17,6 +17,3 @@ test("NaN", () => {
     equal(false, resultOfFailedOperations == NaN, 'is NaN == NaN?');
 });
 
-module.exports = {
-    test
-}

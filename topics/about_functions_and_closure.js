@@ -76,7 +76,4 @@ test("using apply to invoke function", () => {
     equal("I am this!I am arg1I am arg2", result, "what will the value of invokee's this be?");
 });
 
-module.exports = {
-    test
-}
 

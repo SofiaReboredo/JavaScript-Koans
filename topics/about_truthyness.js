@@ -22,7 +22,3 @@ test("truthyness of null", () => {
     const nullIsTruthy = null ? true : false;
     equal(false, nullIsTruthy, 'is null truthy?');
 });
-
-module.exports = {
-    test
-}

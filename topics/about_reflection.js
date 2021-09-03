@@ -76,6 +76,3 @@ test("eval", () => {
     equal('apple pie', result, 'what is the value of result?');
 });
 
-module.exports = {
-    test
-}

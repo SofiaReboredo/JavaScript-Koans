@@ -60,7 +60,3 @@ test("Inheritance", () => {
     equal("Hello, my name is Lenny", lenny.sayHi(), "what does Lenny say?");
     equal('1.5m', lenny.wingspan, "what is Lenny's wingspan?");
 });
-
-module.exports = {
-    test
-}

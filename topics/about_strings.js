@@ -34,7 +34,3 @@ test("slice", () => {
     const fruit = "apple pie";
     equal("apple", fruit.slice(0,5), 'what is the value of fruit.slice(0,5)?');
 });
-
-module.exports = {
-    test
-}

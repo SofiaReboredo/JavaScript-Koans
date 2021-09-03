@@ -45,7 +45,4 @@ test("'this' set explicitly", () => {
 // extra credit: underscore.js has a 'bind' function http://documentcloud.github.com/underscore/#bind
 // read the source and see how it is implemented
 
-module.exports = {
-    test
-}
 

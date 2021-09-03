@@ -48,6 +48,3 @@ test("modulus", () => {
   equal(0, result, "What is the value of result?");
 });
 
-module.exports = {
-  test
-}

@@ -19,7 +19,3 @@ test("not ok", () => {
 test("ok", () => {
     equal(2, 1 + 1, 'what will satisfy the equal assertion?');
 })
-
-module.exports = {
-    test
-}

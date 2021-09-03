@@ -56,6 +56,3 @@ test("adding functions", () => {
     equal("I Amory Blaine am 102 years old.", person.toString(), "what should the toString function be?");
 });
 
-module.exports = {
-    test
-}

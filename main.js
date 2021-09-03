@@ -1,4 +1,3 @@
-const { __, test } = require('./support/koans');
 const asserts = require ('./topics/about_asserts.js');
 const operators = require ('./topics/about_operators.js');
 const equality = require ('./topics/about_equality.js');

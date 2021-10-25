@@ -1,8 +1,9 @@
+const chalk = require('chalk');
 // module("About Truthyness (topics/about_truthyness.js)");
 const { equal, deepEqual } = require('assert')
 const { __, test } = require('../support/koans')
 
-console.log("/*-----------TRUTHYNESS----------------*/");
+console.log(chalk.red("/*-----------TRUTHYNESS----------------*/"));
 test("truthyness of positive numbers", () => {
     const oneIsTruthy = 1 ? true : false;
     equal(1, oneIsTruthy, 'is one truthy?');

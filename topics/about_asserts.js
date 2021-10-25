@@ -1,3 +1,4 @@
+const chalk = require('chalk');
 // module("About Asserts (topics/about_asserts.js)");
 const { ok, equal } = require('assert')
 // const { __, test } = require('../support/koans')
@@ -7,7 +8,7 @@ const koans = require('../support/koans')
 const { __ } = koans
 const { test } = koans
 
-console.log("/*-----------ASSERTS----------------*/");
+console.log(chalk.greenBright("/*-----------ASSERTS----------------*/"));
 test("ok", () => {
     ok(true === true, 'what will satisfy the ok assertion?');
 })

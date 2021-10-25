@@ -1,8 +1,9 @@
+const chalk = require('chalk');
 // module("About Equality (topics/about_equality.js)");
 const { equal, ok } = require('assert')
 const { __, test } = require('../support/koans')
 
-console.log("/*-----------EQUALITY----------------*/");
+console.log(chalk.white("/*-----------EQUALITY----------------*/"));
 test("numeric equality", () => {
     equal(3 + 4,  7, "");
 });

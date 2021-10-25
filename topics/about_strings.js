@@ -1,8 +1,9 @@
+const chalk = require('chalk');
 // module("About Strings (topics/about_strings.js)");
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
-console.log("/*-----------STRINGS----------------*/");
+console.log(chalk.gray("/*-----------STRINGS----------------*/"));
 test("delimiters", () => {
     const singleQuotedString = 'apple';
     const doubleQuotedString = "apple";

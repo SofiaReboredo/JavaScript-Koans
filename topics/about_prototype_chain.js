@@ -1,3 +1,4 @@
+const chalk = require('chalk');
 // demonstrate objects prototype chain
 
 // https://developer.mozilla.org/en/JavaScript/Guide/Inheritance_and_the_prototype_chain
@@ -28,7 +29,7 @@ child.b = 2;
  * ---------------------- ---- ---- ----
  * */
 
-console.log("/*-----------PROTOTYPE CHAIN----------------*/");
+console.log(chalk.yellow("/*-----------PROTOTYPE CHAIN----------------*/"));
 test("Is there an 'a' and 'b' own property on child?", () => {
   equal(true, child.hasOwnProperty('a'), 'child.hasOwnProperty(\'a\')?');
   equal(true, child.hasOwnProperty('b'), 'child.hasOwnProperty(\'b\')?');

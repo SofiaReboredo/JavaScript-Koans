@@ -1,8 +1,9 @@
+const chalk = require('chalk');
 // module("About Regular Expressions (topics/about_regular_expressions.js)");
 const { equal, ok } = require('assert')
 const { __, test } = require('../support/koans')
 
-console.log("/*-----------REGULAR EXPRESSIONS----------------*/");
+console.log(chalk.redBright("/*-----------REGULAR EXPRESSIONS----------------*/"));
 test("exec", () => {
     const numberFinder = /(\d).*(\d)/;
     const results = numberFinder.exec("what if 6 turned out to be 9?");

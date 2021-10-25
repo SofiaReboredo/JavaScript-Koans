@@ -1,8 +1,9 @@
+const chalk = require('chalk');
 // module("About Assignment (topics/about_assignment.js)");
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
-console.log("/*-----------ASSIGNMENT----------------*/");
+console.log(chalk.yellow("/*-----------ASSIGNMENT----------------*/"));
 test("local variables", () => {
     const temp = 1;
     equal(temp, 1, "Assign a value to the variable temp");

@@ -1,3 +1,4 @@
+const chalk = require('chalk');
 // demonstrate the effect of modifying an objects prototype before and after the object is constructed
 // module("About Prototypal Inheritance (topics/about_prototypal_inheritance.js)");
 const { equal } = require('assert')
@@ -14,7 +15,7 @@ Mammal.prototype = {
     }
 }
 
-console.log("/*-----------PROTOTYPAL INHERITANCE----------------*/");
+console.log(chalk.greenBright("/*-----------PROTOTYPAL INHERITANCE----------------*/"));
 test("defining a 'class'", () => {
     const eric  = new Mammal("Eric");
     equal("Hello, my name is Eric", eric.sayHi(), 'what will Eric say?');

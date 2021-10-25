@@ -1,8 +1,9 @@
+const chalk = require('chalk');
 // module("About this (topics/about_this.js)");
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
-console.log("/*-----------THIS----------------*/");
+console.log(chalk.green("/*-----------THIS----------------*/"));
 test("'this' inside a method", () => {
 	const person = {
 		name: 'bob',

@@ -1,8 +1,9 @@
+const chalk = require('chalk');
 // module("About Control Structures (topics/about_control_structures.js)");
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
-console.log("/*-----------CONTROL STRUCTURES----------------*/");
+console.log(chalk.magenta("/*-----------CONTROL STRUCTURES----------------*/"));
 test("if", () => {
 	let isPositive = false;
 	if (2 > 0) {

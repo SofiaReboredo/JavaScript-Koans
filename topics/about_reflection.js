@@ -1,3 +1,4 @@
+const chalk = require('chalk');
 // module("About Reflection (topics/about_reflection.js)");
 const { equal, deepEqual, ok } = require('assert')
 const { __, test } = require('../support/koans')
@@ -12,7 +13,7 @@ function B() {
 
 B.prototype = new A();
 
-console.log("/*-----------REFLECTION----------------*/");
+console.log(chalk.magentaBright("/*-----------REFLECTION----------------*/"));
 test("typeof", () => {
     equal('object', typeof({}), 'what is the type of an empty object?');
     equal('string', typeof('apple'), 'what is the type of a string?');

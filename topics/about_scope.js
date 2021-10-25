@@ -1,10 +1,11 @@
+const chalk = require('chalk');
 // module("About Scope (topics/about_scope.js)");
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
 thisIsAGlobalVariable = 77;
 
-console.log("/*-----------SCOPE----------------*/");
+console.log(chalk.cyan("/*-----------SCOPE----------------*/"));
 test("global variables", () => {
     equal(77, thisIsAGlobalVariable, 'is thisIsAGlobalVariable defined in this scope?');
 });

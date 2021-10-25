@@ -1,8 +1,9 @@
+const chalk = require('chalk');
 // module("About Operators (topics/about_operators.js)");
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
-console.log("/*-----------OPERATORS----------------*/");
+console.log(chalk.blue("/*-----------OPERATORS----------------*/"));
 test("addition", () => {
   let result = 0;
   //starting i at 0, add i to result and increment i by 1 until i is equal to 5

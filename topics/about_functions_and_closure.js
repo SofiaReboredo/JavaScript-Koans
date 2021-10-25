@@ -1,8 +1,9 @@
+const chalk = require('chalk');
 // module("About Functions And Closure (topics/about_functions_and_closure.js)");
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
 
-console.log("/*-----------FUNCTIONS AND CLOSURE----------------*/");
+console.log(chalk.gray("/*-----------FUNCTIONS AND CLOSURE----------------*/"));
 test("defining functions directly", () => {
     var result = "a";
     function changeResult() {
